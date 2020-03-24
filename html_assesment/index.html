@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en-US">
+    <meta charset="utf-8">
+    <meta name="description" content="A brief page about my Favorite
+    city, including statistics and attractions.">
+    <title>Seattle - My Favorite City</title>
+    <link rel="stylesheet" type="text/css" href="table.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Seattle, Washington</h1>
+    <img src="./images/cover_img.jpg" alt="seattle skyline" width="1920" height="600">
+    <p>Home of Microsoft - and Amazon, I guess. A seaport city on the West Coast, bustling with culture, innovation,
+        fresh fish, and novel viruses. :(
+    </p>
+
+    <h2>Income Statistics</h2>
+    <table>
+        <thead>
+            <th>Income Level</th>
+            <th>Seattle</th>
+            <th>Washington</th>
+            <th>Tacoma-Bellevue</th>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Under $50k</td>
+                    <td>27.8%</td>
+                    <td>27.0%</td>
+                    <td>33.1%</td>
+                </tr>
+                <tr>
+                    <td>$50k-$100k</td>
+                    <td>24.4%</td>
+                    <td>28.6%</td>
+                    <td>31.0%</td>
+                </tr>
+                <tr>
+                    <td>$100k-$200k</td>
+                    <td>29.2%</td>
+                    <td>30.6%</td>
+                    <td>26.2%</td>
+                </tr>
+                <tr>
+                    <td>Over $200k</td>
+                    <td>18.6%</td>
+                    <td>13.8%</td>
+                    <td>9.7%</td>
+                </tr>
+        </tbody>
+    </table>
+
+    <h2>Attractions</h2>
+    <ul>
+        <li><a href="pikeplace.html">Pike Place Market</a></li>
+        <li><a href="mscampus.html">Microsoft Campus</a></li>
+        <li><a href="chinatown.html">Chinatown-International District</a></li>
+    </ul>
+
+    <p>Go ahead and fill out a form! Because why not..</p>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+         <li>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="mail">E-mail:</label>
+           <input type="email" id="mail" name="user_mail">
+         </li>
+         <li>
+           <label for="msg">Comments:</label>
+           <textarea id="msg" name="comments"></textarea>
+         </li>
+        </ul>
+       </form>
+</body>
+</html>
